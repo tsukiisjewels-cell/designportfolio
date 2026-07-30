@@ -1,0 +1,31 @@
+view 打不开的原因 & 修复方法
+================================
+
+原因有两个：
+1) 仓库根目录旧的 vercel.json 把所有链接都重写成了网页，PDF 会被拦
+2) GitHub 里缺了一部分 PDF / 图片文件
+
+请按顺序上传到仓库 https://github.com/tsukiisjewels-cell/designportfolio
+
+【第 1 步】覆盖根目录 vercel.json
+- 上传本文件夹里的 vercel.json（覆盖旧文件）
+
+【第 2 步】上传 other-designs.html 到仓库根目录
+
+【第 3 步】打开仓库的 projects/ 文件夹，上传本文件夹 projects/ 里的文件：
+封面图（裂图用）：
+  weekends-wah.jpg
+  dialago.png
+  hopcommnet-brand.png
+  od1.jpg
+
+PDF / 预览：
+  weekends-wah.pdf          （很大，约73MB，网页上传可能失败）
+  hopcommnet-brand.pdf
+  od2.png od3.png od4.png od5.png
+
+【第 4 步】等 Vercel 自动重新部署，浏览器强制刷新（Cmd+Shift+R）再点 view
+
+如果 weekends-wah.pdf 上传失败：
+- 可先不传它，其它 view 先能用
+- 或用 GitHub Desktop 上传这个大文件
